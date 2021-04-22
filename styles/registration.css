@@ -1,0 +1,47 @@
+legend {
+    background-color: rgb(0, 215, 253);
+    border: 2px solid rgb(0, 215, 253);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+fieldset {
+    width: 75%;
+    margin: auto;
+    background-color: #cff1e1;
+    border: 1px solid rgb(0, 215, 253);
+    margin-top: 6%;
+    border-radius: 2%;
+    padding: 1%;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body,
+option,
+select {
+    background-color: rgb(242, 255, 170);
+}
+
+b {
+    color: red;
+}
+
+input {
+    font-size: 100%;
+    font-weight: lighter;
+    block-size: 16px;
+    border: 1px solid rgb(0, 215, 253);
+    background-color: rgb(242, 255, 170);
+}
+
+#add {
+    block-size: 60px;
+}
+
+#submit {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    block-size: 50px;
+    background-color: rgb(242, 255, 170);
+}

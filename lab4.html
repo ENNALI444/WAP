@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Workshop Registration</title>
+    <link rel="stylesheet" type="text/css" href="styles/registration.css">
+
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Workshop Registration</legend>
+            <p>Register now while seats are available !!! </p>
+            <strong class="column">First Name <b>*</b>:</strong><br>
+            <input type="text" required="required" name="name" size="16" maxlength="16"><br><br>
+            <strong class="column">Last Name <b>*</b>:</strong><br>
+            <input type="text" required="required" name="name" size="16" maxlength="16"><br><br>
+            <strong class="column">Company/Institution <b>*</b>:</strong><br>
+            <input type="text" required="required" name="name" size="16" maxlength="16"><br><br>
+            <strong class="column">Address <b>*</b>:</strong><br>
+            <input id="add" required="required" type="text" name="name" size="16" width="20" maxlength="16"><br><br>
+            <strong class="column">City :</strong><br>
+            <input type="text" name="name" size="16" maxlength="16"><br><br>
+
+            <strong class="column">State / Province / Region :</strong><br>
+            <select name="states">
+            <option value="Iowa"> Iowa</option>
+            <option value="Wisconsin"> Wisconsin</option>
+            <option value="Nebraska" selected> Nebraska</option></select><br><br>
+
+            <strong class="column">Country :</strong><br>
+            <select name="Country">
+            <option value="USA"> USA</option>
+            <option value="MA"> Morocco </option></select><br><br>
+
+            <strong class="column">Email <b>*</b>:</strong><br>
+            <input type="email" required="required" name="email" size="16" maxlength="16"><br><br>
+
+            <strong class="column">Phone Number <b>*</b>:</strong><br>
+            <input type="tel" required="required" name="tel" size="16" maxlength="16"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Lunch</legend>
+            <strong class="column">Meal Preference :</strong><br>
+            <select name="meal">
+            <option value="vegen">Vegetarian</option>
+            <option value="Chicken">Chicken</option>
+            <option value="beef">Beef</option>
+            <option value="Fish"> Fish</option>
+        </select>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Payment Details</legend>
+            <strong class="column">Payment Mode :</strong><br>
+            <input type="radio" name="cc" value="Cash" checked="checked" /> Cash<br>
+            <input type="radio" name="cc" value="Cheque" checked="checked" />Cheque<br>
+            <input type="radio" name="cc" value="Demand Draft" checked="checked" />Demand Draft<br><br>
+            <strong class="column">DD/Cheque No. :</strong><br>
+            <input type="text" name="name" size="16" maxlength="16"><br><br>
+            <strong class="column">Drawn on (Bank Name):</strong><br>
+            <input type="text" name="name" size="16" maxlength="16"><br><br>
+            <strong class="column">Payable at :</strong><br>
+            <input type="text" name="name" size="16" maxlength="16"><br><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Submit</legend>
+            <input id="submit" type="submit" value="Submit">
+            <input id="submit" type="reset" value="Reset"><br><br>
+        </fieldset>
+    </form>
+</body>
+
+</html>
